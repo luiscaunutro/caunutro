@@ -1,4 +1,3 @@
-<script>
     var vFoto = [
     "https://static-public.pages.hotmart.com/uploads/media/file/7800074/prancheta_7.png",
     "https://static-public.pages.hotmart.com/uploads/media/file/7800075/prancheta_3.png",
@@ -38,4 +37,3 @@ var vGrupos = [
     "https://devzapp.com.br/api-engennier/campanha/api/redirect/654d09fd72352500018e0f32"
     ];
 
-</script>
