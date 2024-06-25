@@ -1,5 +1,4 @@
-// Adiciona o script do Cookie Consent ao documento
-(function() {
+function() cooquie {
     var script = document.createElement('script');
     script.type = 'text/javascript';
     script.src = 'https://cookieconsent.popupsmart.com/src/js/popper.js';
@@ -15,4 +14,6 @@
         });
     };
     document.head.appendChild(script);
-})();
+}
+
+window.start = new cooquie();
