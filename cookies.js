@@ -1,4 +1,4 @@
-function() cooquie {
+function cooquie() {
     var script = document.createElement('script');
     script.type = 'text/javascript';
     script.src = 'https://cookieconsent.popupsmart.com/src/js/popper.js';
