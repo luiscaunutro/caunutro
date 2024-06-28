@@ -15,5 +15,4 @@ function cooquie() {
     };
     document.head.appendChild(script);
 }
-
 window.start = new cooquie();
