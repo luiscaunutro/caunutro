@@ -12,6 +12,19 @@ function cooquie() {
             LinkText: "Clique para maiores informações",
             Time: "10",
         });
+
+        // Adiciona CSS customizado para ajustar o tamanho
+        var style = document.createElement('style');
+        style.innerHTML = `
+            .cc-window {
+                width: 250px !important;
+                font-size: 12px !important;
+            }
+            .cc-message, .cc-compliance {
+                font-size: 12px !important;
+            }
+        `;
+        document.head.appendChild(style);
     };
     document.head.appendChild(script);
 }
