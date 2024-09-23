@@ -13,19 +13,19 @@ function cooquie() {
             Time: "10",
         });
 
-        // Adiciona CSS customizado para tornar o pop-up menor
+       
         var style = document.createElement('style');
         style.innerHTML = `
             .cc-window {
-                width: 180px !important; /* Menor largura */
-                padding: 5px !important; /* Reduzir padding */
-                font-size: 10px !important; /* Diminuir fonte */
+                width: 150px !important; /* Menor largura */
+                padding: 3px !important;  /* Padding reduzido */
+                font-size: 9px !important; /* Fonte pequena */
             }
             .cc-message, .cc-compliance {
-                font-size: 10px !important; /* Diminuir ainda mais o tamanho da fonte */
+                font-size: 9px !important;  /* Tamanho da mensagem e do botão */
             }
             .cc-compliance .cc-btn {
-                padding: 3px 5px !important; /* Menor botão */
+                padding: 2px 4px !important; /* Botão menor */
             }
         `;
         document.head.appendChild(style);
